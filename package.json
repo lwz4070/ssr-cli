@@ -1,0 +1,23 @@
+{
+  "name": "ssr-cli",
+  "version": "1.0.0",
+  "description": "基于node快速生成服务端渲染(SSR)模版的脚手架工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ssr-cli": "index.js"
+  },
+  "author": "lwz",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "handlebars": "^4.0.12",
+    "inquirer": "^6.2.1",
+    "log-symbols": "^2.2.0",
+    "ora": "^3.0.0"
+  }
+}
